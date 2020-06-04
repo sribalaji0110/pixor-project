@@ -1,0 +1,288 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pixor</title>
+    <script src="/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <nav class="navbar_head">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+        </div>
+        <span class="menu_icon" onclick="menuIcon()"><img src="assets/images/menu.png"></span>
+        <div class="nav_links" id="nav_bar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li><a href="#our-service">Service</a></li>
+                <li><a class="btn btn-white" href="#contact-us">Get a Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner_overall">
+        <div class="container">
+            <div class="banner_inner_sec">
+                <div class="creative_sec">
+                    <h4>For All Your<span> Creative Projects</span> </h4>
+                    <p>Pixor is a graphic design studio. We create unique and attractive designs for great user experiences. We love what we do and we hope you too !
+                    </p>
+                    <a class="btn landing-page-reach-us" href="#contact-us">Any Queries? Reach Us!</a>
+                </div>
+                <div class="banner_img_sec">
+                    <img src="/assets/images/banner.png" alt="banner">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-service" class="service_section">
+        <div class="container">
+            <div class="servie_overall">
+                <h2>Our Services</h2>
+                <div class="servie_tab">
+                    <button class="servicelinks" onclick="tabFn(event, 'professional')" id="defaultOpen">IT
+                        </button>
+                    <button class="servicelinks" onclick="tabFn(event, 'personal')">Business</button>
+                </div>
+
+                <div id="professional" class="servicecontent">
+                    <p class="pro_para">Best for active freelancers and designers who need more projects and premium features. Export your code and unlock more pages for your unhosted projects.
+                    </p>
+                    <div class="service_content">
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/web-ui-icon.png">
+                            <h3>Web UI</h3>
+                            <p>We have the creative capabilities to take your App's personality and translate it to visual design.
+                            </p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/mobile-ui-icon.png">
+                            <h3>Mobile UI</h3>
+                            <p>We build interfaces that are effortless, intuitive, immersive and seamlessly guide users in performing the desired action.
+                            </p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/logo-icon.png">
+                            <h3>Logo</h3>
+                            <p>We desire to make your identity identifiable. Our logo designers make out-of-box designs that make any head turn toward your brand.
+                            </p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/animation-icon.png">
+                            <h3>Animation</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/graphic-design-icon.png">
+                            <h3>Custom Object Design</h3>
+                            <p>Best for active and designers who need more projects and premium features.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="personal" class="servicecontent">
+                    <p class="pro_para">Best for active freelancers and designers who need more projects and premium features. Export your code and unlock more pages for your unhosted projects.
+                    </p>
+                    <div class="service_content">
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/brochure-flyers-icon.png">
+                            <h3>Brochure / Flyers</h3>
+                            <p>Even in this age of digital marketing, a brochure always makes the difference. A copy in your customer’s hands always has an edge favouring your brand or product.
+                            </p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="/assets/images/poster-banner-icon.png">
+                            <h3>Poster / Banner</h3>
+                            <p>An effective banner design can make the difference between an unsuccessful and successful banner ad campaign.
+                            </p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/menu-icon.png">
+                            <h3>Menu</h3>
+                            <p>We provide customized menu designs to provide every client with a unique design. We design, print and deliver menu covers, drink books, tabletop displays, ring binders and much more.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/packages-icon.png">
+                            <h3>Packages</h3>
+                            <p>Brand your product by creating an eye-catching design and it is an important process for any product manufacturer.</p>
+                        </div>
+                        <div class="service_inner_conetnt">
+                            <img src="assets/images/custom-printing-icon.png">
+                            <h3>Custom printing design</h3>
+                            <p>Print on materials like t-shirts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer_section">
+        <div class="container">
+            <div class="zone_overall">
+                <div class="offer_content">
+                    <h4>We offer a full range of <span> Design services</span> </h4>
+                    <p>Pixor are a friendly and enthusiastic team of specialists in all areas of Web UI, Mobile UI, Animation, Logos, Posters, Flyers, Menu, Invitation, Graphic Design and much more.
+                    </p>
+                    <a class="btn landing-page-reach-us" href="#contact-us">Reach Us</a>
+                </div>
+                <div class="offer_img">
+                    <img src="assets/images/offer.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bunch_section">
+        <div class="container">
+            <div class="bunch_overall">
+                <div class="bunch_img">
+                    <img src="assets/images/bunch.png">
+                </div>
+                <div class="bunch_content">
+                    <div class="bunch_iner">
+                        <h4>Bunch of Great Layouts and <span> Web Templates</span> </h4>
+                        <p>Share your idea we will design it.</p>
+                        <button>Get Started now</button>
+                    </div>
+                </div>
+                <div class="mobile_bunch">
+                    <img src="assets/images/bunch.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_work" id="our_work">
+        <h3>Our Works</h3>
+        <div class="our_works">
+            <div class="work_content">
+                <div class="work_content_inner">
+                    <img src="assets/images/work_logo.png">
+                    <p>Pixel Painters is a Chennai-based Painting company specializing in Big Buildings. We provided design for all of their components.</p>
+                </div>
+            </div>
+            <div class="work_img">
+                <img src="assets/images/works.png">
+            </div>
+        </div>
+    </section>
+    <section class="itc_section">
+        <div class="container">
+            <div class="itc_overall">
+                <div class="itc_img">
+                    <img src="assets/images/itc.png">
+                </div>
+                <div class="itc_content">
+                    <img src="assets/images/itc_logo.png">
+                    <p>We provided interactive Web UI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video_section">
+        <img src="assets/images/video.png">
+    </section>
+    <section class="buisness_section">
+        <div class="business_content">
+            <p>Build your successful business with us. Want to know how to do this?</p>
+            <a class="btn landing-page-reach-us" href="#contact-us">Contact Us</a>
+        </div>
+
+    </section>
+    <section class="testimonial" id="testimonials">
+        <h3>Client's Testimonial</h3>
+        <div class="testimonial_overall">
+            <div class="testi_content">
+                <h6>Rossi</h6>
+                <p>Working with him proved that in addition to his creativity, his professionalism is also impressive. He quickly understood what I was looking for and was great about communicating his thinking and progress in a very timely manner.</p>
+            </div>
+            <img src="assets/images/testi.png">
+        </div>
+    </section>
+    <section id="contact-us" class="contact-us">
+        <div class="container">
+            <div class="contact_overall">
+                <div class="contact_content">
+                    <h3>Have A <span> One On One Interaction</span> With Our Experts Now!
+                    </h3>
+                    <form id="contact-form" action="https://formspree.io/xnqgplpo" method="POST" class="contact-form">
+                        <span> <input type="text" name="name" placeholder="Your Name"> </span>
+                        <span><input type="email" name="email" placeholder="Your email"> </span>
+                        <span><textarea type="text" name="message" placeholder="Message"></textarea></span>
+                        <button id="contact-form-button"> Submit</button>
+                        <p id="contact-form-status"></p>
+                    </form>
+                </div>
+                <div class="contact_img">
+                    <img src="assets/images/contact.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="foot_section">
+        <div class="container">
+            <div class="foot_overal">
+                <div class="foot_contents">
+                    <img src="/assets/images/foot_logo.png">
+                    <p>A successful, award winning design team that will help you with all your creative tasks. From websites,apps to branding,we got you covered!</p>
+                </div>
+                <div class="foot_links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="#our-service">Our services</a></li>
+                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#our_work">Our Works</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="contect_inners">
+                    <h6>Contacts</h6>
+                    <div class="content_detail">
+                        <div class="contact_imgs">
+                            <img src="assets/images/headset.png">
+                        </div>
+                        <div class="contact_numbers">
+                            <ul>
+                                <p>Have questions?</p>
+                                <li><a>+91 9841 600 980</a></li>
+                                <li><a>+91 8148 331 218</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2020 pixor.in. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/5ed2bb178ee2956d73a61ade/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+
+</html>
